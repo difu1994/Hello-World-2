@@ -1,3 +1,30 @@
-Hello world 
+#Hello world 
 ## This is a markdown file
-s
+
+
+x <- -5
+y <- 1:20
+
+#[1]in console indicates 1st element of vector/sequence
+#[n]in console indicates nth element of vector/sequence
+
+#c() function used to create vector of objects aka coercion
+
+a <- c(0.5, 0.6) #numeric
+b <- c(TRUE, FALSE) #logical
+c <- c(T, F) #logical
+d <- c("a", "b", "c") #character
+e <- 9: 29 #integer
+f <- c(1+0i, 2+4i) #complex
+
+g <- vector("numeric", length = 10)
+
+
+#convert integer to numeric/character/logical 
+e1 <- as.numeric(e)
+e2 <- as.character(e)
+e3 <- as.logical(e)
+
+#create a list, which can include multiple classes, denoted by double bracket when called
+l <- list(1, "a", TRUE, 1+4i)
+
