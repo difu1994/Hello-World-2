@@ -66,6 +66,6 @@ p1 <- dimnames(p) <- list(c("a", "b"), c("c", "d")) #row followed by column name
 #Names can be assigned to vectors, lists, matrices and Data Frame
 #Factors is a special vector that uses integers to store factors as categoric data
 
-
+#end
 
 
