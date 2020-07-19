@@ -63,7 +63,7 @@ p1 <- dimnames(p) <- list(c("a", "b"), c("c", "d")) #row followed by column name
 #List equivalent to vectors but can store different classes
 #Coercion used to make all objects the same class
 #List allows different class to exist in same list
-#Names can be assigned to vectors, lists, matrices and Data Frame
+#Names can be assigned to vectors and lists, ALSO matrices and Data Frame
 #Factors is a special vector that uses integers to store factors as categoric data
 
 #end
