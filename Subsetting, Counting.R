@@ -65,6 +65,10 @@ m1 <- m[good]
 n1 <- n[good]
 
 
+#COUNTING
 
+#table(unlist("key in object name in which to evaluate elements))
 
+j100 <- table(unlist(j))
+c100 <- table(unlist(c))
 
